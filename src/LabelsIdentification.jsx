@@ -54,7 +54,6 @@ function LabelsIdentification() {
           <div className="Label-values">
             {
             responseObj
-            // console.log(typeof(obj))
             }
           </div>
         </div>
