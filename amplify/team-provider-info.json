@@ -1,0 +1,23 @@
+{
+    "dev": {
+        "awscloudformation": {
+            "AuthRoleName": "amplify-leafdiseasesdetectio-dev-125603-authRole",
+            "UnauthRoleArn": "arn:aws:iam::827066243559:role/amplify-leafdiseasesdetectio-dev-125603-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::827066243559:role/amplify-leafdiseasesdetectio-dev-125603-authRole",
+            "Region": "us-east-1",
+            "DeploymentBucketName": "amplify-leafdiseasesdetectio-dev-125603-deployment",
+            "UnauthRoleName": "amplify-leafdiseasesdetectio-dev-125603-unauthRole",
+            "StackName": "amplify-leafdiseasesdetectio-dev-125603",
+            "StackId": "arn:aws:cloudformation:us-east-1:827066243559:stack/amplify-leafdiseasesdetectio-dev-125603/8f559490-6cab-11eb-ada3-0e3166f46e43",
+            "AmplifyAppId": "d1qsws5s2iswf9"
+        },
+        "categories": {
+            "hosting": {
+                "amplifyhosting": {
+                    "appId": "d1qsws5s2iswf9",
+                    "type": "manual"
+                }
+            }
+        }
+    }
+}
