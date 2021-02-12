@@ -21,8 +21,8 @@ function Header() {
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="mr-auto">
-            <Nav.Link href="/LabelsIdentification" >
-              Project
+            <Nav.Link href="/HowItWorks" >
+              How it works
             </Nav.Link>
             
           </Nav>

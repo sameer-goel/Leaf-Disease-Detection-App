@@ -13,7 +13,7 @@ import awsconfig from "./aws-exports";
 Amplify.configure(awsconfig);
 // Amplify.addPluggable(new AmazonAIPredictionsProvider());
 
-const LandingPageContent = () => {
+const HowItWorks = () => {
   return (
     <>
     <div className="LandingPageContent">
@@ -26,6 +26,7 @@ const LandingPageContent = () => {
       <FileEarmarkRichtext color="royalblue" size={96} />
     </div>
     <div className="LandingPageText">
+      <h3>How it works</h3>
       <ol>
         <li>Leaf Image is clicked by user</li>
         <li>Image is then uplaoded to an Amazon S3</li>
@@ -42,14 +43,14 @@ function App() {
     <Router>
       <div className="App">
         <Switch>
-          <Route path="/LabelsIdentification">
+          <Route path="/HowItWorks">
             <Header />
-            <LabelsIdentification />
+            <HowItWorks />
             <Footer />
           </Route>
           <Route path="/">
             <Header />
-            <LandingPageContent />
+            <LabelsIdentification />
             <Footer />
           </Route>
         </Switch>

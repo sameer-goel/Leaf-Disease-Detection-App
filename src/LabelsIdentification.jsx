@@ -40,7 +40,12 @@ function LabelsIdentification() {
       .then(result => setResponseObj(result))
       .catch(error => console.log('error', error));
   }
-
+  const resp = responseObj && responseObject.length > 0 ? JSON.parse(responseObj) : {};
+  const item = resp && resp.body ? resp.body.shift() : null;
+  console.log(item);
+  console.log(resp);
+  console.log(typeof(resp));
+  
   return (
     <div className="Text">
       <div className="Page-body">
@@ -52,9 +57,9 @@ function LabelsIdentification() {
         <div className="Labels-Identification">
 
           <div className="Label-values">
-            {
+          {
             responseObj
-            }
+          }
           </div>
         </div>
         <div className="uploadedImage">
